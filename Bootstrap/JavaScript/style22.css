@@ -1,0 +1,50 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg, #1e1e2f, #2c2c3e);
+  color: white;
+  text-align: center;
+}
+
+/* Products Grid */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card */
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Button */
+button {
+  padding: 8px;
+  margin-top: 10px;
+  background: orange;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Cart */
+.cart-box {
+  background: rgba(255,255,255,0.1);
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+li {
+  margin: 10px 0;
+}
