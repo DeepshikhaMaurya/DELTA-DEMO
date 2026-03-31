@@ -1,2 +1,0 @@
-# Demo
-Mini projects
